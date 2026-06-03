@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net10.0-android</TargetFrameworks>
@@ -74,6 +74,14 @@
 	  <ProjectReference Include="..\ExpenseTracker.Application\ExpenseTracker.Application.csproj" />
 	  <ProjectReference Include="..\ExpenseTracker.Infrastructure\ExpenseTracker.Infrastructure.csproj" />
 	  <ProjectReference Include="..\ExpenseTracker.Shared\ExpenseTracker.Shared.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Converters\" />
+	  <Folder Include="Navigation\" />
+	  <Folder Include="Services\" />
+	  <Folder Include="ViewModels\" />
+	  <Folder Include="Views\" />
 	</ItemGroup>
 
 </Project>

@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Shared\Constants\" />
+    <Folder Include="Shared\Extensions\" />
+    <Folder Include="Shared\Helpers\" />
+    <Folder Include="Shared\Models\" />
+  </ItemGroup>
+
 </Project>

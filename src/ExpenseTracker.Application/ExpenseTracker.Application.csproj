@@ -4,6 +4,17 @@
     <ProjectReference Include="..\ExpenseTracker.Domain\ExpenseTracker.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Application\Features\Expences\" />
+    <Folder Include="Application\Features\Income\" />
+    <Folder Include="Application\Features\Analytics\" />
+    <Folder Include="Application\Features\Notifications\" />
+    <Folder Include="Application\Interfaces\" />
+    <Folder Include="Application\DTOs\" />
+    <Folder Include="Application\DependencyInjection\" />
+    <Folder Include="Application\Validators\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
