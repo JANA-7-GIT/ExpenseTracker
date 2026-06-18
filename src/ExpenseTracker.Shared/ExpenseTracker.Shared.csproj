@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Shared\Constants\" />
-    <Folder Include="Shared\Extensions\" />
-    <Folder Include="Shared\Helpers\" />
-    <Folder Include="Shared\Models\" />
+    <Folder Include="Constants\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

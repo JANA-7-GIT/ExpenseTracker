@@ -1,6 +1,11 @@
 <Solution>
+  <Folder Name="/docs/" />
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
   <Folder Name="/src/">
-    <Project Path="src/ExpenceTracker.Mobile/ExpenceTracker.Mobile.csproj" />
+    <Project Path="src/ExpenseTracker.Mobile/ExpenseTracker.Mobile.csproj" />
     <Project Path="src/ExpenseTracker.Application/ExpenseTracker.Application.csproj" />
     <Project Path="src/ExpenseTracker.Domain/ExpenseTracker.Domain.csproj" />
     <Project Path="src/ExpenseTracker.Infrastructure/ExpenseTracker.Infrastructure.csproj" />

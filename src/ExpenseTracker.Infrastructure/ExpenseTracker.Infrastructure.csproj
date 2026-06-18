@@ -6,12 +6,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\Data\Configurations\" />
-    <Folder Include="Infrastructure\Data\Repositories\" />
-    <Folder Include="Infrastructure\Data\SQLite\" />
-    <Folder Include="Infrastructure\DependencyInjection\" />
-    <Folder Include="Infrastructure\Device\" />
-    <Folder Include="Infrastructure\Services\" />
+    <Folder Include="Data\Configurations\" />
+    <Folder Include="Data\Repositories\" />
+    <Folder Include="Data\SQLite\" />
+	<Folder Include="DependencyInjection\" />
+    <Folder Include="Device\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
   <PropertyGroup>
